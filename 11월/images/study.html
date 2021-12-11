@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+
+  <head>
+    <title>TMAP</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link href="../src/styles/default.css" rel="stylesheet" type="text/css">
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="../src/assets/js/ui.js"></script>
+
+  </head>
+  <style>
+    *{margin:0;padding:0;}
+    .main{width:850px;height:1600px;}
+    .hidden{display:block;overflow:hidden;text-indent: -9999px;width:0;height:0;}
+    .visual{position:relative;height:567px;background:url("images/visual.jpg") no-repeat;}
+    .visual p {position:absolute;top:146px;left:347px;}
+    .visual p:after{content:"";position:absolute;top:-41px;left:-92px;background:url("images/icon.png") no-repeat;width:72px;height: 97px;}
+    .visual h1{ position: absolute;top:219px;left:94px; font-size: 75px;color: #be0f34;background:rgb(255 255 255 / 85%); width: 657px; height: 167px;border-radius: 14px;line-height: 143px;text-align: center;}
+    .content p{font-size:30px;text-align: center;color: #000;line-height: 40px;padding: 35px 0;}
+
+  </style>
+
+
+  <body>
+    <div class="main">
+        <div class="visual">
+            <h1>happy holidays!</h1>   
+            <p>
+               <span class="hidden">place your logo hear</span>
+               <img src="images/icon_title.png" width="243" height="26"/> 
+            </p>    
+        </div>
+        <div class="content">
+            <p>Enjoy the holidays with your family and friends <br/>with these festive recipes and gift ideas!</p>
+
+
+        </div>
+    </div>    
+  </body>
+
+</html>

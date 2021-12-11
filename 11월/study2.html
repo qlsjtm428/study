@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+
+  <head>
+    <title>TMAP</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link href="../src/styles/default.css" rel="stylesheet" type="text/css">
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="../src/assets/js/ui.js"></script>
+
+  </head>
+  <style>
+    *{margin:0;padding:0;}
+    ul,li{list-style:none;}
+    a{text-decoration: none;}
+    .main{width:850px;position: relative;}
+      .top_logo{background: #eaaf46; /*포지셔닝 후 넓이 높이값 잡아주기*/width: 850px; height: 125px;}  
+      .top_logo span{text-indent: -9999px;width:0;height: 0;display:block;}
+      .top_logo span:after{content:"";background: url("images/icon.png") no-repeat; width: 72px; height: 97px;position:absolute;top:15px;left:40px;}
+      .top_logo img{position: absolute;top: 55px;left: 133px;}
+      .visual h1{font-size: 80px;color: #eaaf46;letter-spacing: -5px;}
+      .visual div{text-align: center;}
+      .visual div p strong{font-size: 20px;}
+      .visual img{display:block;/*블럭요소인데 또 넣어야됨?*/margin:30px auto 0;}
+      .content{margin: 54px 76px; }
+      .content .item{display:flex;margin-top:42px;}
+      .content .item.left{justify-content: flex-start;}
+      .content .item.right{justify-content: flex-start;}
+      .content .item div:first-child{margin-left:0;}
+      .content .item div{margin-left:23px}
+      .content .text_wrap{width:438px;}
+  </style>  
+
+
+    <body>
+        <div class="main">
+            <div class="top_logo">
+                <div class="logo_wrap">
+                    <span>Place your hear</span>
+                    <img src="images/icon_title.png" /> 
+                </div>
+            </div>
+            <div class="visual">
+                <div>
+                    <h1>LATEST NEWS</h1>
+                    <p><strong>Stay in the loop.See what we up to this month!</strong></p>
+                </div>
+                <img src="" width="697px" height="373px" />    
+            </div>
+            <div class="content">
+                <h2>WHAT'S NEW</h2>
+                <div class="item left">
+                    <div><img src="" width="336" height="225"/></div>
+                    <div class="text_wrap">
+                        <h3>FOOT BALL SEASON IS HERE</h3>
+                        <p>Support our team. Catch the footbal games this season at the campus field.</p>
+                        <a href=""/>READ MORE</a>
+                    </div>
+                </div>
+                <div class="item right">
+                    <div class="text_wrap">
+                        <h3>DANCE TROUPE AUDITIONS</h3>
+                        <p>The dance troupe needs more members to join them as they perform for plays and other events this school year.</p>
+                        <a href=""/>READ MORE</a>
+                    </div>
+                    <div><img src="" width="336" height="225"/></div>
+                </div>
+                <div class="item left">
+                    <div><img src="" width="336" height="225"/></div>
+                    <div class="text_wrap">
+                        <h3>COLLEGE FAIR</h3>
+                        <p>Attend our annual get-togethers and make new friends at the campus.</p>
+                        <a href=""/>READ MORE</a>
+                    </div>
+                </div>
+            </div>
+            Follow us on social media
+        Privacy Policy         Terms of Use       Contact Us       Manage Email Preferences         Unsubscribe
+        </div>
+    </body>
+
+</html>

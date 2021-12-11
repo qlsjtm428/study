@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+
+  <head>
+    <title>TMAP</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link href="../src/styles/default.css" rel="stylesheet" type="text/css">
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="../src/assets/js/ui.js"></script>
+
+  </head>
+  <style>
+    *{margin:0;padding:0;}
+    ul,li{list-style:none;}
+    a{text-decoration: none;}
+    .main{width:850px;height:1600px;}
+    .hidden{display:block;overflow:hidden;text-indent: -9999px;width:0;height:0;}
+    .visual{position:relative;height:567px;background:url("images/visual.jpg") no-repeat;}
+    .visual p {position:absolute;top:146px;left:347px;}
+    .visual p:after{content:"";position:absolute;top:-41px;left:-92px;background:url("images/icon.png") no-repeat;width:72px;height: 97px;}
+    .visual h1{ position: absolute;top:219px;left:94px; font-size: 75px;color: #be0f34;background:rgb(255 255 255 / 85%); width: 657px; height: 167px;border-radius: 14px;line-height: 143px;text-align: center;}
+      .content{background: #fcfffb;}  
+    .content p.title{font-size:30px;text-align: center;color: #000;line-height: 40px;padding: 35px 0;}
+    .content ul.item{overflow: hidden}
+    .content ul.item li{float:left;margin-left:47px;width:354px;} 
+    .content ul.item li div.txt_wrap{background: #be0f34;text-align: center; color:#FFF; }
+    .content ul.item li div.txt_wrap p.name{padding:15px 0;font-size:30px;line-height: 1.2;font-weight: bold;}
+    .content ul.item li div.txt_wrap p.subtitle{font-size:25px;line-height: 1.3;padding-bottom:17px;}
+    .content ul.item li div.btn_wrap{text-align: center}
+    .content ul.item li div.btn_wrap a{border: 6px solid #be0f34;border-radius: 14px;color:#be0f34;display:inline-block;/*display:block;*/padding:13px 20px;  margin: 16px 0 39px;text-decoration: none;}
+    .util{background: #be0f34;text-align: center;}
+    .util ul{display:flex;justify-content: center;/*margin:15px 0 25px; flex에는 안먹나*/padding:15px 0 25px;}
+    .util p{font-size: 20px; color: #FFF; padding-top: 18px;}
+    .util ul li:first-child{margin-left:0;}
+    .util ul li{margin-left: 12px;}
+    .footer{background: #fcfffb;text-align: center;}
+    .footer p{font-weight: bold;}
+    .footer .txt1{padding:15px 0;font-size: 13px;line-height: 1.8;}
+    .footer .txt2 a{font-size:15px;line-height: 1.2;padding-bottom:24px;/*라인헤이트 계산 다시*/text-decoration:underline;color:#000;} 
+
+  </style>  
+
+
+  <body>
+    <div class="main">
+        <div class="visual">
+            <h1>happy holidays!</h1>   
+            <p>
+               <span class="hidden">place your logo hear</span>
+               <img src="images/icon_title.png" width="243" height="26"/> 
+            </p>    
+        </div>
+        <div class="content">
+            <p class="title">Enjoy the holidays with your family and friends <br/>with these festive recipes and gift ideas!</p>
+            <ul class="item">
+                <li>
+                    <img src="images/item1.jpg" />
+                    <div class="txt_wrap">
+                        <p class="name">sweet berry pie</p>
+                        <p class="subtitle">the seetest and easiest <br/>berry pie perfet for the <br/>Holidays!</p>
+                    </div>
+                    <div class="btn_wrap"><a href="#">Read more</a></div> 
+                </li>
+                <li>
+                    <img src="images/item2.jpg" />
+                    <div class="txt_wrap">
+                        <p class="name">sweet berry pie</p>
+                        <p class="subtitle">the seetest and easiest <br/>berry pie perfet for the <br/>Holidays!</p>
+                    </div>
+                    <div class="btn_wrap"><a href="#">Read more</a></div> 
+                </li>
+            </ul>
+            <div class="util">
+                <p>follow us on social media</p>
+                <ul>
+                    <li><a href="#"><img src="images/facebook.png" /></a></li>
+                    <li><a href="#"><img src="images/twitter_icon.png" /></a></li>
+                    <li><a href="#"><img src="images/blog_icon.png" /></a></li>
+                    <li><a href="#"><img src="images/instar_icon.png" /></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <p class="txt1">Copy20145,all<br/>You subscrifed</p>            
+            <p class="txt2"><a href="#">&nbsp;&nbsp;Unsubscube. foer this lsit &nbsp;&nbsp;</a></p>
+        </div>
+    </div>    
+  </body>
+
+</html>
